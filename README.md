@@ -7,8 +7,11 @@ En cours // Lecture de doc :
 - Machine learning methods for histopathological image analysis: Updates in 2024
 - RadCLIP: Enhancing Radiologic Image Analysis through Contrastive Language-Image Pre-training
 - Analyse du model DINO
+- Vérif si indic de qualité en *train.csv* disponible 
+
 Fait :
 - Super-Generalist: Towards Comprehensive and Accurate Medical Image Understanding via Generalist–Specialist Synergy
+- recherche de la struct possible 
 ### Ouvrages disponibles
 - Mathematics for Machine Learning de Deisenroth, Faisal & Ong
 - MONAI (arxiv 2211.02701)
@@ -19,3 +22,7 @@ Fait :
 - Transformers hierarchiques (Swin, etc.)
 - Modeles a espace d'etat (Mamba)
 - Pré-entrainement auto-supervisé (Masked Autoencoders, contrastif type Barlow Twins/DINO)
+### Struct possible
+1. BackBone image - DINO V2 + LoRa avec pooling pondéré de série + prétrait DDICOM
+2. Backbone texte - utilisé pour entrainement du model teacher multimodal (predict 12 labels puis distil prédict dans le student "Label only". utilise le student a la fin pour le test ayant hérité du teacher sans avoir besoin de texte)
+3. Fusion image/texte avec les 12 patho - Que branche image (25 sec par étude)
