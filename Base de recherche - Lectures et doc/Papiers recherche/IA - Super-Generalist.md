@@ -1,4 +1,6 @@
 # Modele étudié : SuG (Super-Generalist)
+*Organes étudiées : abdomen*
+
 ## Différence dans les modeles
 Compromis entre le modele specialiste et Generaliste : 
 - **Specialiste** (ex. nnU-Net) : excelle dans l'id de structures fines et detection locale grace à des annotations précises au niveaux de certains pixels. Portée étroite, limitée à des tâches/maladies spécifiques et extension coûte cher en annotation
