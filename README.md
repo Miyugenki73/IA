@@ -24,5 +24,5 @@ Fait :
 - Pré-entrainement auto-supervisé (Masked Autoencoders, contrastif type Barlow Twins/DINO)
 ### Struct possible
 1. BackBone image - DINO V2 + LoRa avec pooling pondéré de série + prétrait DDICOM
-2. Backbone texte - utilisé pour entrainement du model teacher multimodal (predict 12 labels puis distil prédict dans le student "Label only". utilise le student a la fin pour le test ayant hérité du teacher sans avoir besoin de texte)
+2. Backbone texte - utilisé pour entrainement du model teacher multimodal (predict 12 labels puis distil prédict dans le student "Label only". utilise le student a la fin pour le test ayant hérité du teacher sans avoir besoin de texte) // point de vigilance : peu de cas on de bonnes annotations, pondéré selon la qualité de l'annotation (si gold, % important, sinon faible => utiliser comme soft distill)
 3. Fusion image/texte avec les 12 patho - Que branche image (25 sec par étude)
