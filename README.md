@@ -2,15 +2,14 @@
 
 ## Pierre - Travail
 En cours // Lecture de doc : 
-    - Super-Generalist: Towards Comprehensive and Accurate Medical Image Understanding via Generalist–Specialist Synergy
-    - A survey on deep learning in medical image analysis (Litjens et al.)
-    - Machine learning methods for histopathological image analysis: Updates in 2024
-
-## Ouvrages disponibles
+- Super-Generalist: Towards Comprehensive and Accurate Medical Image Understanding via Generalist–Specialist Synergy
+- A survey on deep learning in medical image analysis (Litjens et al.)
+- Machine learning methods for histopathological image analysis: Updates in 2024
+- RadCLIP: Enhancing Radiologic Image Analysis through Contrastive Language-Image Pre-training
+### Ouvrages disponibles
 - Mathematics for Machine Learning de Deisenroth, Faisal & Ong
 - MONAI (arxiv 2211.02701)
-
-## Modeles disponibles
+### Modeles disponibles
 - CNN 3D natifs (DenseNet3D, EfficientNet3D, ResNet3D)
 - nnU-Net
 - Vision Transformers (ViT) et hybrides CNN-ViT
